@@ -21,7 +21,7 @@ const Login = () => {
       // to server = Lets install that inside client
 e.preventDefault();
 
-      Axios.post('https://login-register-bd.vercel.app/login', {
+      Axios.post('https://login-register-bd.vercel.app/api/login', {
         //create variable to send to the server
         LoginUserName: loginUserName,
         LoginPassword: loginPassword
