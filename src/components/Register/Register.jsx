@@ -24,7 +24,7 @@ const Register = () => {
       //We shall require Axios to create API that connects
       // to server = Lets install that inside client
 
-      Axios.post('http://localhost:3003/register', {
+      Axios.post('https://login-register-bd.vercel.app/register', {
         //create variable to send to the server
 
         FullName: fullName,
